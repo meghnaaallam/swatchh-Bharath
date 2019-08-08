@@ -18,14 +18,11 @@ public class MyFirst{
 
     public static void main(String[] args) throws IOException 
     {
-    
-    	System.out.println("Enter your name!");	//Enter data using BufferReader 
-    BufferedReader reader = 
-    new BufferedReader(new InputStreamReader(System.in)); 
-    
-    // Reading data using readLine 
+    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    // ask for the users name
+    System.out.println("Enter your name!");	
     String name1 = reader.readLine(); 
-
+    // ask for users password (not in asterisk notation : work on that later)
     System.out.println("Please enter your password.");
     String pass1 = reader.readLine();
     
@@ -42,7 +39,7 @@ public class MyFirst{
             doc.appendChild(rootElement);
 
             //append first child element to root element
-            rootElement.appendChild(getDetails(doc, name1,pass1));
+            rootElement.appendChild(getDetails(doc,name1,pass1));
 
         
 
