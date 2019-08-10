@@ -1,5 +1,4 @@
 # Swatchh-Bharath
-SWATCHH BHARAT
 In order to start off the project in a systematic manner some part of the dev-ops features were used in the implementation of the project.
 I initially started off with planning on exploring the different technologies that I’d be working on as I was unaware of them. 
 After a lot of research on how to go about I finally made a plan on the requirements as well as on how I’d be implementing them.
